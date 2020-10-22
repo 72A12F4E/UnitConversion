@@ -2,7 +2,7 @@
 //  UnitConversionView.swift
 //  UnitConversionApp
 //
-//  Created by McAnally, Blake on 10/21/20.
+//  Created by Blake McAnally on 10/21/20.
 //
 
 import SwiftUI
@@ -63,9 +63,7 @@ struct UnitConversionView<UnitType: Dimension>: View {
 
             Section {
                 Button("Swap Units") {
-                    let temp = fromUnit
-                    fromUnit = toUnit
-                    toUnit = temp
+                    swap(&fromUnit, &toUnit)
                 }
             }
 

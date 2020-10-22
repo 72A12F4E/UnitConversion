@@ -2,7 +2,7 @@
 //  Units.swift
 //  UnitConversionApp
 //
-//  Created by McAnally, Blake on 10/21/20.
+//  Created by Blake McAnally on 10/21/20.
 //
 
 import Foundation
